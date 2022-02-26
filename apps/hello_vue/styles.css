@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#faithfulapp * {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+#faithfulapp p {
+  margin: 0;
+}
+
+#faithfulapp  .body {
+  display: block;
+  width: 100%;
+}
+
+#faithfulapp .title h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#faithfulapp .slidercontainer {
+  display: inline-block;
+  width: calc(30% - 48px);
+  overflow: none;
+  vertical-align: top;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 35px 15px 25px 15px;
+}
+
+#faithfulapp .plotcontainer {
+  display: inline-block;
+  width: 70%;
+}

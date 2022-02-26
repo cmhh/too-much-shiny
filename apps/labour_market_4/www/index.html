@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Labour Market Time Series Data</title>
+  <link rel="stylesheet" href="https://unpkg.com/vue-select@3.0.0/dist/vue-select.css">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+<div id=labmktapp>
+  <div class="title"><h1>Labour Market Time Series Data</h1></div>
+  <div class="body">
+    <div class="controls">
+      <p class="label">select subject:</p>
+      <v-select v-model="selectedSubject" :options="subjects" id="subject-select"></v-select>
+
+      <p class="label">select group:</p>
+      <v-select v-model="selectedGroup" :options="groups" id="group-select"></v-select>
+
+      <p class="label">select series:</p>
+      <v-select v-model="selectedSeries" :options="series" id="series-select" multiple></v-select>
+      </select>
+    </div>
+    <div class="plotcontainer">
+      <div id="labmktplot"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-select@3.0.0"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src='https://cdn.plot.ly/plotly-2.8.3.min.js'></script>
+<script src='./main.js'></script>
+
+</body>
+</html>

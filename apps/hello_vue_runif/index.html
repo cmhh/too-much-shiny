@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Hello runif!!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vue-slider-component@latest/theme/default.css">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+<div id=runifapp>
+  <div class="title"><h1>Hello runif from Vue.js!</h1></div>
+  <div class="body">
+    <div class="slidercontainer">
+        <vue-slider
+          v-model="nobs"
+          :min="1"
+          :max="10000"
+          :lazy="true"
+          :marks="[1, 2000, 4000, 6000, 8000, 10000]"
+          :tooltip="'always'"
+        ></vue-slider>
+    </div>
+    <div class="plotcontainer">
+      <div id="plot"></div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-slider-component@latest/dist/vue-slider-component.umd.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src='https://cdn.plot.ly/plotly-2.8.3.min.js'></script>
+<script src='./main.js'></script>
+
+</body>
+</html>

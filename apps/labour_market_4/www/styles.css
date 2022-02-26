@@ -1,0 +1,51 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*/
+
+#labmktapp * {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+#labmktapp {
+  width: 100%;
+}
+
+#labmktapp p {
+  margin: 0;
+}
+
+#labmktapp .title h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#labmktapp .controls {
+  display: inline-block;
+  width: calc(40% - 30px);
+  vertical-align: top;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+#labmktapp .plotcontainer {
+  display: inline-block;
+  width: 60%;
+}
+
+#labmktapp .v-select .vs__dropdown-toggle {
+  border-color: #999!important;
+  margin-bottom: 20px;
+}
+
+#labmktapp .v-select .vs__dropdown-toggle, #labmktapp .vs__dropdown-menu {
+  background: #FFF;
+  font-size: 80%;
+}
+
+#labmktapp p.label {
+  font-size: 80%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

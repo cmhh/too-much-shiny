@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#runifapp * {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+#runifapp p {
+  margin: 0;
+}
+
+#runifapp  .body {
+  display: block;
+  width: 100%;
+}
+
+#runifapp .title h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#runifapp .slidercontainer {
+  display: inline-block;
+  width: calc(30% - 58px);
+  overflow: none;
+  vertical-align: top;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 35px 25px 25px 25px;
+}
+
+#runifapp .plotcontainer {
+  display: inline-block;
+  width: 70%;
+}

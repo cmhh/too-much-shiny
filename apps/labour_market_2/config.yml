@@ -1,0 +1,2 @@
+default:
+  service: "http://localhost:3001"
