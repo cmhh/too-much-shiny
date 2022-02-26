@@ -2,4 +2,4 @@
 .Rhistory
 .Rproj.user
 services/*pid.txt
-
+services/*.log
